@@ -22,6 +22,7 @@
 
 </head>
 <h1>HOLAAAAaaaaaa</h1>
+<h1>dashboard2</h1>
 <body id="page-top">
     <?php
     
