@@ -119,7 +119,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Ingresar</a>
+                        <a class="collapse-item" href="LoginPagina.php">Ingresar</a>
                         <a class="collapse-item" href="register.html">Registrarse</a>
                         <a class="collapse-item" href="forgot-password.html">Olvidó su Contraseña</a>
                         <div class="collapse-divider"></div>
