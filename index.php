@@ -62,7 +62,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+                Interfaces
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
@@ -74,7 +74,7 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
+                        <h6 class="collapse-header">Personalizados:</h6>
                         <a class="collapse-item" href="buttons.html">Botones</a>
                         <a class="collapse-item" href="cards.html">Cards</a>
                     </div>
@@ -91,7 +91,7 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
+                        <h6 class="collapse-header">Utilidades:</h6>
                         <a class="collapse-item" href="utilities-color.html">Colores</a>
                         <a class="collapse-item" href="utilities-border.html">Borders</a>
                         <a class="collapse-item" href="utilities-animation.html">Animaciones</a>
@@ -105,7 +105,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Addons
+                Enlaces
             </div>
             
 
@@ -118,7 +118,7 @@
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
+                        <h6 class="collapse-header">Zona de logueo:</h6>
                         <a class="collapse-item" href="LoginPagina.php">Ingresar</a>
                         <a class="collapse-item" href="register.html">Registrarse</a>
                         <a class="collapse-item" href="forgot-password.html">Olvidó su Contraseña</a>
@@ -471,13 +471,14 @@
                         <div class="card-header py-3 text-center">
                             <h6 class="m-0 font-weight-bold text-primary">Registrar Ticket</h6>
                         </div>
-                            <div class="input-group mb-3">
+                        <form id="ticket">
+                        <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
 
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Correo" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <span class="input-group-text" id="basic-addon2">usuario@example.com</span>
+                                <input type="text" class="form-control" placeholder="Usuario" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2">Example: srolong</span>
                             </div>
 
                             <label for="basic-url" class="form-label">Descripcion del caso</label>
@@ -507,8 +508,10 @@
                                 </div>
 
                                 <div class="d-flex justify-content-center">   
-                                    <button onClick="mensaje()" type="submit" class="btn btn-primary mt-3">Registrar</button>
+                                    <input onClick="mensaje(); reset()" type="button" value="Registrar Ticket" class="btn btn-primary mt-3"></input>
                                 </div>
+                        </form>
+                            
                                 
                      </div>
                      
