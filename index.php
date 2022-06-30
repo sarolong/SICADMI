@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>SICADMI - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -75,8 +75,8 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Personalizados:</h6>
-                        <a class="collapse-item" href="buttons.html">Botones</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
                     </div>
                 </div>
             </li>
@@ -92,10 +92,10 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Utilidades:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colores</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animaciones</a>
-                        <a class="collapse-item" href="utilities-other.html">Otros</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
                     </div>
                 </div>
             </li>
@@ -124,24 +124,24 @@
                         <a class="collapse-item" href="forgot-password.html">Olvidó su Contraseña</a>
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Otras paginas:</h6>
-                        <a class="collapse-item" href="404.html">Pagina 404</a>
-                        <a class="collapse-item" href="blank.html">Pagina en blanco</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
+                        <a class="collapse-item" href="#">Por Asignar</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
+                    <span>Por Asignar</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tablas</span></a>
+                    <span>Por Asignar</span></a>
             </li>
 
             <!-- Divider -->
@@ -282,8 +282,7 @@
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">¡Hola! Me pregunto si me puedes ayudar con un
-                                            problema que tengo.</div>
+                                        <div class="text-truncate">Un mensaje</div>
                                         <div class="small text-gray-500">Emily FLorez · 58m</div>
                                     </div>
                                 </a>
@@ -294,8 +293,7 @@
                                         <div class="status-indicator"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">Tengo las fotos que pediste el mes pasado, como
-                                            ¿quieres que te los envíen?</div>
+                                        <div class="text-truncate">Un mensaje</div>
                                         <div class="small text-gray-500">Jane Chuls · 1d</div>
                                     </div>
                                 </a>
@@ -306,20 +304,18 @@
                                         <div class="status-indicator bg-warning"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">El informe del mes pasado se ve muy bien, estoy muy contento con
-                                            el progreso hasta ahora, ¡sigan con el buen trabajo!</div>
+                                        <div class="text-truncate">Un mensaje</div>
                                         <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
                                             alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
                                     <div class="font-weight-bold">
-                                        <div class="text-truncate">¿Soy un buen chico? La razón por la que pregunto es porque alguien
-                                            me dijo que la gente le dice esto a todos los perros, aunque no sean buenos...</div>
+                                        <div class="text-truncate">Un mensaje</div>
                                         <div class="small text-gray-500">Cocina el Perro · 2w</div>
                                     </div>
                                 </a>
