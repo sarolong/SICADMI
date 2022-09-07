@@ -1,16 +1,16 @@
 <?php
 include 'conexion.php';
-
+session_start();
 $usuario=$_POST['usuario'];
 $pass=$_POST['password'];
 
-$query="SELECT U.* FROM tbl_usuarios AS U WHERE U.Usuario='$usuario' AND U.Password='$pass'";
+$query="SELECT A.* FROM tbl_admin AS A WHERE A.Usuario='$usuario' AND A.Password='$pass'";
 $q=mysqli_query($con,$query);
 $array=mysqli_fetch_row($q);
 
 if($array){
-   header('Location: ./index.php');
-   session_start();
+   header('Location: index.php');
+   
    $_SESSION['Usuario'] = $usuario;
 
 }else{
@@ -19,6 +19,7 @@ if($array){
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>';
 }
+
 
 
 ?>

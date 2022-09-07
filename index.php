@@ -24,12 +24,11 @@
 </head>
 
 <body id="page-top">
-    <?php
-    
+<?php 
     session_start();
     $usuario=$_SESSION['Usuario'];
     if(!isset($usuario)){
-        header('location: LoginPagina.php');
+        header('location: LoginPagi.php');
     }
 ?> 
 
@@ -554,7 +553,7 @@
                 <div class="modal-body">Seleccione "Cerrar sesión" a continuación si está listo para finalizar su sesión actual.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="./LoginPagina.php">Salir</a>
+                    <a class="btn btn-primary" href="php/CerrarSesion.php">Salir</a>
                 </div>
             </div>
         </div>
